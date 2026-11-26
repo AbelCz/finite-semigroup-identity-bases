@@ -15,3 +15,5 @@ The source files and the manuscript match the dated public release. No claim of 
 - Immutable proof and manuscript commit: `374cfdf5c9524517d102e1d421b1ef69ef92ced5`
 - [SHA256SUMS](SHA256SUMS) is the original source-archive manifest. It does not cover the separately distributed PDF or repository-only metadata.
 - [License scope](LICENSES.md): CC BY 4.0 for the manuscript; MIT for the original code.
+
+Citable preprint: [10.5281/zenodo.24567351](https://doi.org/10.5281/zenodo.24567351), Zenodo version 1.0.

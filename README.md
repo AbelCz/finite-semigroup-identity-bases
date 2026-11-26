@@ -2,6 +2,8 @@
 
 Ábel Czupor, with Codex assistance. Independent human review is pending.
 
+[Project page and manuscript](https://czupor.me/research/finite-semigroup-identity-bases/) · [Zenodo preprint and DOI](https://doi.org/10.5281/zenodo.24567351) · [License scope](LICENSES.md)
+
 This package contains the Lean sources for a negative answer to the finite identity basis decision problem for finite semigroup multiplication tables. The final statement quantifies over partial recursive Boolean procedures on numeric matrices. It requires termination and a correct answer on every nonempty finite associative multiplication table. A finite basis consists of equations in terms built solely from variables and binary multiplication.
 
 The endpoint is `finite_semigroup_finite_basis_undecidable` in `Proof/Problem455Undecidability.lean`. This module also proves the primitive-recursive table construction, its isomorphism to the monoid in the reduction, the blank-tape halting equivalence, and the existence of a single finite machine that writes the presentation.
