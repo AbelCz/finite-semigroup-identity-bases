@@ -1,0 +1,264 @@
+import Lean.Util.CollectAxioms
+import Problem455ActualGuards
+import Problem455Alignment
+import Problem455AnyPresentation
+import Problem455BareFlip
+import Problem455BinaryBasis
+import Problem455BinaryEquality
+import Problem455BinaryProduct
+import Problem455BinaryTerms
+import Problem455BlockBridge
+import Problem455BlockSeparators
+import Problem455BooleanReader
+import Problem455CatalogueBounds
+import Problem455CellClass
+import Problem455CellClassBinary
+import Problem455CellClassClean
+import Problem455CellClassEndpoints
+import Problem455CellClassFrames
+import Problem455CellClassGrid
+import Problem455CellClassHalting
+import Problem455CellClassPadded
+import Problem455CellClassRank
+import Problem455CellClassSnake
+import Problem455CertificateReach
+import Problem455CertificateSearch
+import Problem455CertifiedReduction
+import Problem455ChangedEvents
+import Problem455ChartSchedule
+import Problem455Closure
+import Problem455CompressedFrame
+import Problem455Compression
+import Problem455ComputableReduction
+import Problem455ComputableWriter
+import Problem455ConstantLayout
+import Problem455ConstantProduct
+import Problem455ContactGeometry
+import Problem455ContactLift
+import Problem455ContactReflection
+import Problem455CrossedSupport
+import Problem455Decision
+import Problem455DefectProjection
+import Problem455DefectRename
+import Problem455DonorBridge
+import Problem455DonorInterval
+import Problem455EdgeProduct
+import Problem455EdgeProjection
+import Problem455EdgeSource
+import Problem455EffectiveMachineChain
+import Problem455EffectiveMachineCode
+import Problem455EffectiveMachineDiagonal
+import Problem455EffectiveMachinePrefix
+import Problem455EffectiveMachineRelabel
+import Problem455EffectiveMachineRelabelChain
+import Problem455EffectiveMachineWriter
+import Problem455EffectiveQ
+import Problem455EffectiveQMove
+import Problem455EffectiveQRaw
+import Problem455EffectiveQReach
+import Problem455EffectiveQTable
+import Problem455Encoded
+import Problem455EnumBasic
+import Problem455EnumEdges
+import Problem455EnumGuards
+import Problem455EnumQueries
+import Problem455EnumStructural
+import Problem455FactorSlots
+import Problem455Finite
+import Problem455FiniteBasis
+import Problem455FiniteModel
+import Problem455FirstRewrite
+import Problem455FirstTesters
+import Problem455FlipFromWord
+import Problem455FoldDelivery
+import Problem455FoldInput
+import Problem455FoldMachine
+import Problem455FoldRun
+import Problem455FoldWorld
+import Problem455FoldedWalk
+import Problem455FullSingleton
+import Problem455GadgetPaths
+import Problem455Global
+import Problem455GraphReduction
+import Problem455GridAssembly
+import Problem455GridRows
+import Problem455GuardProduct
+import Problem455GuardRename
+import Problem455GuardSubproduct
+import Problem455ImmutablePrivate
+import Problem455IndexedProduct
+import Problem455LiteralMovePrim
+import Problem455LocalIdentity
+import Problem455MachineAlphabet
+import Problem455MachineCleanup
+import Problem455MachineLocal
+import Problem455MachineParse
+import Problem455MachineParseSelf
+import Problem455MachineReduction
+import Problem455MachineTable
+import Problem455MachineTrace
+import Problem455MarkedPath
+import Problem455MarkedRank
+import Problem455MathlibCode
+import Problem455MathlibFinite
+import Problem455MathlibMarker
+import Problem455MathlibTM
+import Problem455NumericProduct
+import Problem455NumericProductPrim
+import Problem455ObservationBridge
+import Problem455Operational
+import Problem455OriginalEdges
+import Problem455OriginalTerminal
+import Problem455OriginalWalk
+import Problem455OtherProjection
+import Problem455OutsideFactor
+import Problem455OverflowExample
+import Problem455Packed
+import Problem455PackedOutput
+import Problem455PaddedAssembly
+import Problem455PaddedCounts
+import Problem455PaddedIndexed
+import Problem455PaddedMatchings
+import Problem455PaddedOrders
+import Problem455PaddedPorts
+import Problem455PaddedReadback
+import Problem455PaddedSlots
+import Problem455PaddedSnake
+import Problem455PaddedTiles
+import Problem455PaddedWord
+import Problem455PaddedWordSlots
+import Problem455PayloadBridge
+import Problem455PortReflection
+import Problem455PortUnique
+import Problem455PrefixBlocks
+import Problem455PrefixCatalogue
+import Problem455PrefixChart
+import Problem455PrefixChunks
+import Problem455PrefixCommon
+import Problem455PrefixGlobal
+import Problem455PrefixInsertion
+import Problem455PrefixIsolation
+import Problem455PrefixLinkInvariance
+import Problem455PrefixMatching
+import Problem455PrefixNormalize
+import Problem455PrefixPlaces
+import Problem455PrefixReadout
+import Problem455PrefixRecordLinks
+import Problem455PrefixTriple
+import Problem455PrefixValidity
+import Problem455PrimitivePrim
+import Problem455PrivatePhase
+import Problem455ProfileComponent
+import Problem455PureSemigroup
+import Problem455Quotient
+import Problem455RawReduction
+import Problem455RealizerClass
+import Problem455RealizerFrameOps
+import Problem455RealizerGraph
+import Problem455RealizerPrim
+import Problem455RectangleRank
+import Problem455ReductionBoundary
+import Problem455Retained
+import Problem455RetainedVariant
+import Problem455ReverseMark
+import Problem455RowsPrim
+import Problem455SameDonor
+import Problem455Schedule
+import Problem455SemanticConsequence
+import Problem455SerializePrim
+import Problem455SingletonEvaluation
+import Problem455SlotOrigin
+import Problem455SlotProduct
+import Problem455SlotSaturation
+import Problem455Slots
+import Problem455SmallRank
+import Problem455SourceFamilies
+import Problem455SourceTheorem
+import Problem455StandardDecision
+import Problem455StatementAudit
+import Problem455Structural
+import Problem455StructuralProduct
+import Problem455StructuralReflection
+import Problem455StructuralWords
+import Problem455SupportBound
+import Problem455Swap
+import Problem455Table
+import Problem455TableBits
+import Problem455TableDecision
+import Problem455TableFactors
+import Problem455TableProduct
+import Problem455TableSemantics
+import Problem455TableValidate
+import Problem455TerminalTransfer
+import Problem455Uncrossed
+import Problem455Undecidability
+import Problem455UniformCross
+import Problem455Witness
+import Problem455WordChart
+import Problem455WriterAdjacency
+import Problem455WriterBinary
+import Problem455WriterBlank
+import Problem455WriterBlockTest
+import Problem455WriterCatalogue
+import Problem455WriterCatalogueSpec
+import Problem455WriterCode
+import Problem455WriterCodePrim
+import Problem455WriterEdgeCatalogue
+import Problem455WriterEdgePorts
+import Problem455WriterEdgePortsRec
+import Problem455WriterEdgeRec
+import Problem455WriterEdgeSearch
+import Problem455WriterEdgeTests
+import Problem455WriterEdgeTypes
+import Problem455WriterFrontier
+import Problem455WriterGuard
+import Problem455WriterGuardSpec
+import Problem455WriterLocal
+import Problem455WriterMachineData
+import Problem455WriterMachinePrim
+import Problem455WriterNorm
+import Problem455WriterObservations
+import Problem455WriterPhysical
+import Problem455WriterProfiles
+import Problem455WriterProgram
+import Problem455WriterProgramPrim
+import Problem455WriterQueryLeaves
+import Problem455WriterSlotContact
+import Problem455WriterSlotTypes
+import Problem455WriterSlots
+import Problem455WriterSlotsTerminal
+import Problem455WriterStructural
+import Problem455WriterStructuralRec
+import Problem455WriterStructuralTests
+import Problem455WriterSweep
+import Problem455WriterTileData
+import Problem455WriterTileRec
+import Problem455WriterTiles
+open Lean
+run_cmd
+  let env ← getEnv
+  let mut locals := #[]
+  let mut mods : NameSet := {}
+  for (n, ci) in env.constants.toList do
+    if let some i := env.getModuleIdxFor? n then
+      let m := env.header.moduleNames[i]!
+      if m.toString.startsWith "Problem455" then
+        mods := mods.insert m
+      if m.toString.startsWith "Problem455" && (ci matches .thmInfo _) then
+        locals := locals.push n
+  let (_, all) := ((locals.forM CollectAxioms.collect).run env).run {}
+  unless mods.toList.length == 235 && locals.size == 4446 do
+    throwError "unexpected project audit scope"
+  let axs := all.axioms.map toString |>.toList.mergeSort
+  logInfo m!"Global audit: {mods.toList.length} project modules, {locals.size} theorems; axioms {axs}"
+  unless axs == ["Classical.choice", "Quot.sound", "propext"] do
+    throwError "unexpected axioms: {axs}"
+
+#print axioms P455Undecidability.table_primitive_recursive
+#print axioms P455Undecidability.presents_exact_model
+#print axioms P455Undecidability.blank_tape_reduction
+#print axioms P455Undecidability.presentation_writer_exists
+#print axioms P455Undecidability.no_table_decider
+#print axioms P455Undecidability.no_bit_promise_decider
+#print axioms P455Undecidability.finite_semigroup_finite_basis_undecidable
+#check P455Undecidability.finite_semigroup_finite_basis_undecidable
